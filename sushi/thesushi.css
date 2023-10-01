@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('./sushi/japan_wave/japanfont.ttf') format('truetype'); /* Use forward slashes */
+}
+
+.topic {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    color: #373A36;
+}
+
+
+.sushiwhat {
+    text-align: center;
+    font-family: 'Forum', cursive;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #E6E2DD;
+}
+
+.sushi1 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 3px solid #373A36;
+}
+
+body {
+    background-color: #D48166;
+}
+
+.recipepg {
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10%;
+    background-color: #373A36;
+    margin: 0 auto;
+}
+
+
+.line1 {
+    padding: none;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: white;
+}
+
+.line2 {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.makeit {
+    font-family: 'Yeseva One', cursive;;
+    text-align: center;
+}
+
+.mkbutton {
+    color: white;
+    background-color: #373A36;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+    font-family: 'Yeseva One';
+    border-color: #373A36;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.mkbutton:hover {
+    background-color: white;
+    color: black;
+}
